@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+.animated-text {
+    animation: colorChange 5s infinite; 
+}
+
+@keyframes colorChange {
+    0% { color: red; } 
+    25% { color: blue; } 
+    50% { color: green; } 
+    75% { color: orange; } 
+    100% { color: red; } 
+}
+img {
+    width: 20px;
+    height: 13px;
+}
+.phrase {
+    font-size: 18px;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    background-color: #444; 
+    border: 1px solid #000; 
+    margin-left: 5px; 
+    margin-right: 5px; 
+}
+.floot{
+    display: flex;
+    justify-content: flex-start;
+}
+.img{
+    width: 250px;
+    height: 150px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container img {
+    max-width: 100px;
+    max-height: 100px; 
+    border-radius: 50%;
+}
