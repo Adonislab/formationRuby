@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* CSS  Entete */
+header {
+    padding: 10px; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+    list-style: none;
+    color: #888;
+    
+}
+
+nav ul li:first-child {
+    margin-left: auto; 
+}
+
+
+/* CSS Corps */
+.box {
+    border: 0.1px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 30px;
+    width: 500px;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 40px;
+    display: flex;
+    align-items: center; 
+}
+
+.input-box {
+    margin-left: 15px;
+    width: 420px;
+    height: 25px;
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.box a {
+    width: 30px; 
+    height: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box a img {
+    width: 20px; 
+    height: auto;
+}
+
+.loup {
+    margin-right: 10px; 
+}
+
+.voix {
+    margin-left: auto; 
+}
+
+.google-logo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    padding-bottom: 250px;
+}
+.button{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn {
+    margin: 150px 10px 0 0;
+    font-size: 15px;
+    padding: 8px 15px;
+    border: none;
+    color: #868686;
+    border-radius: 5px;
+}
+.btn:hover{
+    border: 1px solid #868686;
+    border-radius: 5px;
+}
+/* CSS Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer > div,
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+.first {
+    justify-content: flex-start; 
+}
+
+.second {
+    justify-content: flex-end; 
+}
