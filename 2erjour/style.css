@@ -17,6 +17,8 @@ nav ul {
 nav ul li {
     margin-left: 20px; 
     list-style: none;
+    color: #888;
+    
 }
 
 nav ul li:first-child {
