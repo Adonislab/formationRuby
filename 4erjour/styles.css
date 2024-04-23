@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
+section div {
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
