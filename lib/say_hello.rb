@@ -1,4 +1,8 @@
+# Définit une nouvelle méthode appelée 'hello'
 def hello 
+    # Affiche le message "Bonjour tout le monde" dans la console
     puts 'Bonjour tout le monde'
 end    
-hello
+
+# Appelle la méthode 'hello'
+hello()
