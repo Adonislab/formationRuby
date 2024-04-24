@@ -1,3 +1,4 @@
+# On enrégistre quelques mails et on les affiche en filtrant si le nombre au sein du mail est pair
 emails = [
     "charlie_206@outlook.com",
     "john_114@gmail.com",
@@ -23,7 +24,7 @@ emails = [
 ]
 
 puts "Liste des faux emails avec un nombre pair :"
-emails.each do |email|
-  numero = email.split('_').last.split('@').first.to_i
+emails.each do |email| # on lie chaque email 
+  numero = email.split('_').last.split('@').first.to_i # on flitre suivant chaque nombre pair
   puts email if numero.even?
 end

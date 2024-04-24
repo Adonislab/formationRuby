@@ -8,5 +8,5 @@ puts "Voici ta pyramide :"
 (1..nombre_etages).each do |etage| # on compte de 1 à nombre_etages
   espaces = nombre_etages - etage # on diminue le nombre
   hashtags = etage #on récupere le nombre 
-  puts " " * espaces + "#" * hashtags #on affiche le # en autant de fois que d'étage 
+  puts "# " * hashtags + " " *espaces    #on affiche le # en autant de fois que d'étage 
 end

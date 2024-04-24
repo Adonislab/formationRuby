@@ -1,3 +1,4 @@
+# Pour afficher plusieurs messages à la suite sur le terminal
 puts "Bonjour, monde !"
 
 puts "Et avec une voix sexy, ça donne : Bonjour, monde !"

@@ -1,3 +1,5 @@
+# On fait la meme chose mais en changeant un peu le texte 
+
 puts "Entrez votre année de naissance :"
 print "> "
 annee_naissance = gets.chomp.to_i

@@ -1,3 +1,5 @@
+# Pour afficher des messages, des calcules et des tests au terminal
+
 puts "On va compter le nombre d'heures de travail à THP"
 
 puts "Travail : #{10 * 5 * 11}"
