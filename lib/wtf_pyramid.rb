@@ -5,7 +5,7 @@ def wtf_pyramid
 
     # Vérifie si le nombre d'étages est impair
     if nombre_etages % 2 == 0
-        puts "Le nombre d'étages doit être impair."
+        puts "Le nombre d'étages doit être pair."
         return
     end
 

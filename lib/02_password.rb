@@ -1,3 +1,5 @@
+
+# Nous demandons un mot de passe à l'ultilstateur que nous mettons dans une variable
 def demander_mot_de_passe
     puts "Veuillez entrer le mot de passe :"
     print "> "
@@ -5,11 +7,13 @@ def demander_mot_de_passe
     return mot_de_passe
 end
 
+# Affichage de txte
 def espace_secret
     puts "Bienvenue dans l'espace secret ! Vous avez accès à des informations confidentielles."
     puts "C'est très secret !"
 end
 
+# Vérification du mot de passe 
 def verifier_mot_de_passe(mot_de_passe)
     mot_de_passe_secret = "supersecret" # Mot de passe secret
 

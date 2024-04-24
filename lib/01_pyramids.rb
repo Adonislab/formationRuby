@@ -1,3 +1,4 @@
+# Nous procédons à une encapsulation de la méthode
 def half_pyramid
     # Affiche un message d'accueil demandant à l'utilisateur de choisir le nombre d'étages pour la pyramide
     puts "Salut camarade, bienvenue dans ma super pyramide ! Combien d'étages veux-tu entre 1 et 21 ?"

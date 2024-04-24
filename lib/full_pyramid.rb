@@ -1,3 +1,5 @@
+# Nous reprenons le code précdent pour l'encapsuler dans la méthode 'full_pyramid'
+
 def full_pyramid
     puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
     print "> "
